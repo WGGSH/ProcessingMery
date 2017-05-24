@@ -126,19 +126,35 @@ pixelWidth
 pixels
 width
 
-#Word Color=4, WholeWord=True, RightSide=False, MatchCase=True, InsideTag=False, RegEx=False
-draw
-keyPressed
-keyReleased
-keyTyped
-mouseClicked
-mouseDragged
-mouseMoved
-mousePressed
-mouseReleased
-mouseWheel
-settings
-setup
+#Word Color=4, WholeWord=True, RightSide=False, MatchCase=True, InsideTag=False, RegEx=True
+draw\s*\(\s*\)
+keyPressed\s*\(\s*\)
+keyReleased\s*\(\s*\)
+keyTyped\s*\(\s*\)
+mouseClicked\s*\(\s*\)
+mouseDragged\s*\(\s*\)
+mouseMoved\s*\(\s*\)
+mousePressed\s*\(\s*\)
+mouseReleased\s*\(\s*\)
+mouseWheel\s*\(\s*\)
+settings\s*\(\s*\)
+setup\s*\(\s*\)
+
+#Word Color=5, WholeWord=True, RightSide=False, MatchCase=True, InsideTag=False, RegEx=True
+ArrayList\s*\(.*\)
+HashMap\s*\(.*\)
+PShader\s*\(.*\)
+PVector\s*\(.*\)
+boolean\s*\(.*\)
+byte\s*\(.*\)
+char\s*\(.*\)
+color\s*\(.*\)
+float\s*\(.*\)
+int\s*\(.*\)
+frameRate\s*\(.*\)
+keyPressed\s*\(.*\)
+mousePressed\s*\(.*\)
+pixelHeight\s*\(.*\)
 
 #Word Color=5, WholeWord=True, RightSide=False, MatchCase=True, InsideTag=False, RegEx=False
 PShader
@@ -550,7 +566,7 @@ BURN
 CENTER
 CHATTER
 CHORD
-CLAMP LITERAL2
+CLAMP
 CLICK
 CLOSE
 CMYK
@@ -596,7 +612,7 @@ ENABLE_DEPTH_SORT
 ENABLE_DEPTH_TEST
 ENABLE_NATIVE_FONTS
 ENABLE_OPENGL_ERRORS
-ENABLE_PURE_STROKE LITERAL2
+ENABLE_PURE_STROKE
 ENABLE_STROKE_PERSPECTIVE
 ENABLE_TEXTURE_MIPMAPS
 ENABLE_TRANSFORM_CACHE
@@ -605,7 +621,7 @@ EPSILON
 ERODE
 ESC
 EXCLUSION
-EXIT LITERAL2
+EXIT
 FX2D
 GIF
 GRAY
@@ -670,7 +686,7 @@ RADIUS
 RAD_TO_DEG
 RECT
 RED_MASK
-RELEASE LITERAL2
+RELEASE
 REPEAT
 REPLACE
 RETURN
