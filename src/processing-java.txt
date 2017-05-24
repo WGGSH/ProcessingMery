@@ -1,0 +1,4 @@
+タイトル: processing-java
+コマンド: $(Processing-Dir)/processing-java.exe
+引数    : --sketch=$(Dir) --run
+ファイルを保存する: on
