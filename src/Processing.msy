@@ -726,3 +726,6 @@ TWO_PI
 UP
 WAIT
 WHITESPACE
+
+#Word Color=7, WholeWord=True, RightSide=False, MatchCase=True, InsideTag=False, RegEx=True
+((?<!\w)\d+\.\d*(d|f){0,1}(?!\w)|(?<!\w|\.)\d+(d|f|l){0,1}(?!\w|\.))
